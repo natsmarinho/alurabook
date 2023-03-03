@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="./src/css/style.css">
 
 </head>
@@ -47,7 +49,51 @@
     <section class="banner">
         <h2 class="banner__titulo">Já sabe por onde começar?</h2>
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura">
+        <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Novos lançamentos</h2>
+
+        <!-- Slider main container -->
+<div class="swiper">
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./src/imagens/Acessibilidade.svg" alt="Livro sobre Acessibilidade na web"></div>
+      <div class="swiper-slide"><img src="./src/imagens/ApacheKafka-book.svg" alt="Livro sobre Apache kafka e spring"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Arquitetura-software.png" alt="Livro sobre arquitetura de software"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Nodejs-book.png" alt="Livro sobre node js"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Portugol-logica.svg" alt="Livro sobre lógica com portugol"></div>
+      <div class="swiper-slide"><img src="./src/imagens/ReactNative.png" alt="Livro sobre react"></div>
+      <div class="swiper-slide"><img src="./src/imagens/js-assertivo.png" alt="Livro de javascript assertivo"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Tuning-sql.svg" alt="Livro sobre sql"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Construct2-book.png" alt="Livro sobre construct"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Gestão-book.png" alt="Livro sobre gestão"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Gestão2-book.png" alt="Segundo livro sobre gestão"></div>
+      <div class="swiper-slide"><img src="./src/imagens/Liderança-book.png" alt="Livro sobre liderança"></div>
+      <div class="swiper-slide"><img src="./src/imagens/MetricasAgeis-book.png" alt="Livros sobre metricas ágeis"></div>
+      <div class="swiper-slide"><img src="./src/imagens/UX-book.png" alt="Livro sobre UX"></div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+            },
+        });
+    </script>
 </body>
 </html>
