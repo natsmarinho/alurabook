@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraBooks</title>
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -36,11 +36,18 @@
             </li>
         </ul>
         
-        <img src="./src/imagens/logo.svg" alt="Logo do AluraBooks">
+        <img src="./src/imagens/logo.svg" class="alura__logo" alt="Logo do AluraBooks">
+        <h1 class="container__titulo"><b class="container__titulo-negrito">Alura</b>Books</h1>
     </div>
 
+    <ul class="opcoes">
+        <li class="opcoes__item">Categorias</li>
+        <li class="opcoes__item"><a href="" class="opcoes__item-link">Favoritos</a></li>
+        <li class="opcoes__item"><a href="" class="opcoes__item-link">Minha estante</a></li>
+    </ul>
+
     <div class="container">
-        <a href="#"><img src="./src/imagens/likes.svg" class="container__imagem" alt='Ícone de favoritos'></a>
+        <a href="#"><img src="./src/imagens/likes.svg" class="container__imagem container__imagem-transparente" alt='Ícone de favoritos'></a>
         <a href="#"><img src="./src/imagens/bag.svg" class="container__imagem" alt="Ícone minha sacola"></a>
         <a href="#"><img src="./src/imagens/profile.svg" class="container__imagem" alt="ícone de perfil"></a>
     </div>

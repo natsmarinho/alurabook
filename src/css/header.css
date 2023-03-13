@@ -56,6 +56,45 @@
     text-transform: uppercase;
 }
 
-.container__botao{
+.container__botao, .container__titulo, .opcoes{
     display: none;
+}
+
+@media screen and (min-width: 768px){
+    .alura__logo{
+        padding-inline: .4em;
+    }
+    
+    .container__titulo, .container__titulo-negrito{
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+    }
+
+    .container__titulo{
+        font-weight: 400;
+        display: block;
+        padding-top: .3em;
+    }
+
+    .container__titulo-negrito{
+        font-weight: 700;
+    }
+
+    .opcoes{
+        display: flex;
+    }
+
+    .opcoes__item{
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .opcoes__item-link{
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__imagem-transparente, .cabecalho__menu-hamburger{
+        display: none;
+    }
 }
