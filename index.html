@@ -41,7 +41,28 @@
     </div>
 
     <ul class="opcoes">
+        <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+        <label for="opcoes-menu">
         <li class="opcoes__item">Categorias</li>
+        </label>
+        <ul class="lista-menu">
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Programação</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Front-end</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Infraestrutura</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Business</a>
+            </li>
+            <li class="lista-menu__item">
+                <a href="#" class="lista-menu__link">Deisgn & UX</a>
+            </li>
+        </ul>
+        
         <li class="opcoes__item"><a href="" class="opcoes__item-link">Favoritos</a></li>
         <li class="opcoes__item"><a href="" class="opcoes__item-link">Minha estante</a></li>
     </ul>
@@ -106,20 +127,22 @@
 
         <div class="swiper">
             <div class="swiper-pagination"></div>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="./src/imagens/ReactNative.png" alt="Livro sobre react"></div>
-                <div class="swiper-slide"><img src="./src/imagens/js-assertivo.png" alt="Livro de javascript assertivo"></div>
-                <div class="swiper-slide"><img src="./src/imagens/Tuning-sql.svg" alt="Livro sobre sql"></div>
-                <div class="swiper-slide"><img src="./src/imagens/Construct2-book.png" alt="Livro sobre construct"></div>
-                <div class="swiper-slide"><img src="./src/imagens/Gestão-book.png" alt="Livro sobre gestão"></div>
-                <div class="swiper-slide"><img src="./src/imagens/Gestão2-book.png" alt="Segundo livro sobre gestão"></div>
-                <div class="swiper-slide"><img src="./src/imagens/Liderança-book.png" alt="Livro sobre liderança"></div>
-                <div class="swiper-slide"><img src="./src/imagens/MetricasAgeis-book.png" alt="Livros sobre metricas ágeis"></div>
-                <div class="swiper-slide"><img src="./src/imagens/UX-book.png" alt="Livro sobre UX"></div>
-            </div>
-        </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./src/imagens/ReactNative.png" alt="Livro sobre react"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/js-assertivo.png" alt="Livro de javascript assertivo"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/Tuning-sql.svg" alt="Livro sobre sql"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/Construct2-book.png" alt="Livro sobre construct"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/Gestão-book.png" alt="Livro sobre gestão"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/Gestão2-book.png" alt="Segundo livro sobre gestão"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/Liderança-book.png" alt="Livro sobre liderança"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/MetricasAgeis-book.png" alt="Livros sobre metricas ágeis"></div>
+                    <div class="swiper-slide"><img src="./src/imagens/UX-book.png" alt="Livro sobre UX"></div>
+                </div>
 
-        <div class="card">
+        <div class="swiper-button-prev second-btn-prev"></div>
+        <div class="swiper-button-next second-btn-next"></div>
+
+        <div class="card second">
             <div class="card__descricao">
                 <div class="descricao">
                     <img src="./src/imagens/stars.svg" alt="Cinco estrelas de avaliação da autora">
@@ -154,9 +177,11 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros. </p>
-        <input type="email" name="" id="" placeholder="Cadastre seu email" class="contato__email">
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros. </p>
+        </div>
+            <input type="email" name="" id="" placeholder="Cadastre seu email" class="contato__email">
     </section>
 
     <hr/>
