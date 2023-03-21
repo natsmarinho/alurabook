@@ -68,9 +68,17 @@
     </ul>
 
     <div class="container">
-        <a href="#"><img src="./src/imagens/likes.svg" class="container__imagem container__imagem-transparente" alt='Ícone de favoritos'></a>
-        <a href="#"><img src="./src/imagens/bag.svg" class="container__imagem" alt="Ícone minha sacola"></a>
-        <a href="#"><img src="./src/imagens/profile.svg" class="container__imagem" alt="ícone de perfil"></a>
+        <a href="#">
+            <img src="./src/imagens/likes.svg" class="container__imagem container__imagem-transparente" alt='Ícone de favoritos'>
+        </a>
+        <a href="#" class="container__link">
+            <img src="./src/imagens/bag.svg" class="container__imagem" alt="Ícone minha sacola">
+            <p class="container__texto">Minha sacola</p>
+        </a>
+        <a href="#" class="container__link">
+            <img src="./src/imagens/profile.svg" class="container__imagem" alt="ícone de perfil">
+            <p class="container__texto">Meu perfil</p>
+        </a>
     </div>
     </header>
 
@@ -84,6 +92,7 @@
         <h2 class="carrossel__titulo">Novos lançamentos</h2>
 
         <!-- Slider main container -->
+<div class="carrossel__container">
 <div class="swiper">
 
         <!-- If we need pagination -->
@@ -102,29 +111,32 @@
     <div class="swiper-button-prev"></div>
     <div class="swiper-button-next"></div>
 
-    <div class="card">
-        <div class="card__descricao">
-            <div class="descricao">
-                <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
-            </div>
-            <img src="./src/imagens/imagem-angular.svg" class="desc__imagem" alt="Imagem da capa do livro ngular 11 e Firebase">
+    
+</div>
+<div class="card">
+    <div class="card__descricao">
+        <div class="descricao">
+            <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
         </div>
-
-        <div class="card__btn">
-            <ul class="btn">
-                <li class="botoes"><img src="./src/imagens/likes.svg" alt="Botão favoritar"></li>
-                <li class="botoes"><img src="./src/imagens/bag.svg" alt="Adicionar livro ao carrinho"></li>
-            </ul>
-            <a href="#" class="btn__ancora">Saiba mais</a>
-        </div>
+        <img src="./src/imagens/imagem-angular.svg" class="desc__imagem" alt="Imagem da capa do livro ngular 11 e Firebase">
     </div>
+
+    <div class="card__btn">
+        <ul class="btn">
+            <li class="botoes"><img src="./src/imagens/likes.svg" alt="Botão favoritar"></li>
+            <li class="botoes"><img src="./src/imagens/bag.svg" alt="Adicionar livro ao carrinho"></li>
+        </ul>
+        <a href="#" class="btn__ancora">Saiba mais</a>
+    </div>
+</div>
+</div>
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">Mais vendidos</h2>
-
+        <div class="carrossel__container">
         <div class="swiper">
             <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
@@ -159,6 +171,8 @@
                 </ul>
             <a href="#" class="btn__ancora autora">Saiba mais</a>
         </div>
+        </div>
+</div>
         </div>
     </section>
 

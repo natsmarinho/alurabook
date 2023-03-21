@@ -56,9 +56,10 @@
     text-transform: uppercase;
 }
 
-.container__botao, .container__titulo, .opcoes{
+.container__botao, .container__titulo, .opcoes, .container__texto{
     display: none;
 }
+
 
 @media screen and (min-width: 768px){
     .alura__logo{
@@ -94,7 +95,7 @@
         color: var(--preto);
     }
 
-    .container__imagem-transparente, .cabecalho__menu-hamburger{
+    .container__imagem-transparente, .cabecalho__menu-hamburger, .opcoes__botao{
         display: none;
     }
 
@@ -102,8 +103,39 @@
         display: block;
         width: auto;
     }
+}
 
-    .opcoes__botao{
-        display: none;
+@media screen and (min-width: 1280px){
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabecalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
+    .container__texto{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .banner__pesquisa{
+        width: 35%;
+    }
+
+    .banner__pesquisa::placeholder{
+        background-position: 12em;
+    }
+
+    .banner{
+        padding: 6em 0;
     }
 }
