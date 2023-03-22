@@ -137,4 +137,13 @@
     .descricao__titulo{
         font-size: 32px;
     }
+
+    .segundo__carrossel{
+        position: relative;
+        left: -10em;
+    }
+
+    .second-btn-next, .second-btn-prev{
+        top: 15em;
+    }
 }
