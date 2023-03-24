@@ -16,10 +16,13 @@ hr{
     .rodape{
         display: flex;
         justify-content: space-around;
+        padding: 3em 0;
     }
     
     .lista-rodapé{
         display: block;
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
     }
 
     .lista-rodapé__item{
