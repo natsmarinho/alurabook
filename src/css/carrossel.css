@@ -146,4 +146,8 @@
     .second-btn-next, .second-btn-prev{
         top: 15em;
     }
+
+    .btn__ancora:active {
+        background-color: var(--azul);
+        }
 }
