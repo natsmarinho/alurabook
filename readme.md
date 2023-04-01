@@ -9,7 +9,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Projeto com intuito de reforçar aprendizado em flexbox e responsividade.
+Projeto com intuito de reforçar aprendizado em flexbox e responsividade, além do uso de API.
 </p>
 
 ## Deploy da Aplicação :dash:
