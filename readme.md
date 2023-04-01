@@ -21,3 +21,4 @@ Projeto com intuito de reforçar aprendizado em flexbox e responsividade, além 
 - Frontend Mentor - [@natsmarinho](https://www.frontendmentor.io/profile/natsmarinho)
 - Twitter - [@natsmarinho](https://www.twitter.com/natsmarinho)
 - Instagram - [@natsmarinho](https://www.instagram.com/natsmarinho/)
+- LinkedIn - [natsmarinho](https://www.linkedin.com/in/natsmarinho/)
